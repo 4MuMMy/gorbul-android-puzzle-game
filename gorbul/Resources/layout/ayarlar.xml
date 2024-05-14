@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ayarlarR1"
+    >
+    
+    <FrameLayout
+        android:id="@+id/ayarlar_ustTaraf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true">
+        
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="right"
+            android:id="@+id/ayarlarKapatBtn" />
+
+    </FrameLayout>
+
+    
+    <ScrollView
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:id="@+id/ayarlarScroll" >
+
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayarlarSesler"
+            android:background="#99222222"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+            >
+
+                <TextView
+                    android:id="@+id/ayarlarSeslerTxt"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:textColor="#dddddd"
+                    android:text=""/>
+                
+            </LinearLayout>
+            
+
+            <Switch
+                android:id="@+id/ayarlarSeslerSwh"
+                android:layout_width="0px"
+                android:layout_height="0px" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayarlarMuzik"
+            android:background="#99222222"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+            >
+
+                <TextView
+                    android:id="@+id/ayarlarMuzikTxt"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:textColor="#dddddd"
+                    android:text=""/>
+                
+            </LinearLayout>
+            
+
+            <Switch
+                android:id="@+id/ayarlarMuzikSwh"
+                android:layout_width="0px"
+                android:layout_height="0px" />
+
+        </RelativeLayout>
+        
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayarlarTitresim"
+            android:background="#99222222"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+            >
+
+                <TextView
+                    android:id="@+id/ayarlarTitresimTxt"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:textColor="#dddddd"
+                    android:text=""/>
+                
+            </LinearLayout>
+            
+
+            <Switch
+                android:id="@+id/ayarlarTitresimSwh"
+                android:layout_width="0px"
+                android:layout_height="0px" />
+
+        </RelativeLayout>
+        
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayarlarYanlisKelimeSil"
+            android:background="#99222222"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+            >
+
+                <TextView
+                    android:id="@+id/ayarlarYanlisKelimeSilTxt"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:textColor="#dddddd"
+                    android:text=""/>
+                
+            </LinearLayout>
+            
+
+            <Switch
+                android:id="@+id/ayarlarYanlisKelimeSilSwh"
+                android:layout_width="0px"
+                android:layout_height="0px" />
+
+        </RelativeLayout>
+        
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayarlarGoogleCik"
+            android:background="#99222222"
+            >
+
+            <ImageView
+                android:src="@drawable/p_googleico"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/ayarlarGoogleCikIco"
+                android:foregroundGravity="center"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/ayarlarGoogleCikTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayarlarKodGir"
+            android:background="#99444444"
+            >
+
+            <TextView
+                android:id="@+id/ayarlarKodGirTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+            <EditText
+                android:id="@+id/ayarlarKodGirTxtBx"
+                android:inputType="text"
+                android:imeOptions="flagNoFullscreen"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:background="#dddddd"
+                android:textColor="#222222"
+            />
+            
+            <TextView
+                android:id="@+id/ayarlarKodGirDurum"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="#dddddd"
+                android:visibility="gone"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/ayarlarKodGirBtn"
+                android:text=""
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textAlignment="gravity"
+            />
+
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/ayarlarIlerleyis"
+            android:text=""
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:textAlignment="gravity"
+        />
+        
+        <Button
+            android:id="@+id/ayarlarYardim"
+            android:text=""
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:textAlignment="gravity"
+        />
+        
+        <TextView
+            android:id="@+id/ayarlarGizlilikTxt"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:text=""/>
+        
+        <TextView
+            android:id="@+id/ayarlarHizmetSartlariTxt"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:text=""/>
+        
+        <TextView
+            android:id="@+id/ayarlarVerileriYonetTxt"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/ayarlarVers"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:text="" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

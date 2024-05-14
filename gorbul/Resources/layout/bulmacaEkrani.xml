@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ustMenu_bulmacaEkrani"
+        android:tag="ustMenu"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#ededed"
+    >
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/gorselCevirFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:contentDescription=""
+            android:id="@+id/soruGorseli"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+            <ImageView
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:contentDescription=""
+            android:id="@+id/gorselCevir"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    </FrameLayout>
+
+   
+
+    <LinearLayout
+        android:id="@+id/gorselAltiSatiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#444">
+
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/gorselSuresiTxt" 
+            android:layout_gravity="left" />
+        
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textAlignment="viewEnd"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/gorselSayisiTxt" 
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/soruScroll"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:scrollbars="vertical"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#d3d3d3">
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:justificationMode="inter_word"
+            android:id="@+id/soru"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/cevapKutulari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/satir0"
+            android:tag="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/satir1"
+            android:tag="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/satir2"
+            android:tag="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/butonlar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center">
+
+        <Button
+            android:text=""
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/harfAlBtn" />
+
+        <Button
+            android:text=""
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:enabled="false"
+            android:id="@+id/uzaklastirBtn" />
+
+        <Button
+            android:text=""
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/kelimeyiAcBtn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/klavye"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="bottom|center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/ksatir0"
+            android:tag="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ksatir1"
+            android:tag="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ksatir2"
+            android:tag="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center">
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tekrarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="bottom|center_horizontal"
+        android:visibility="gone">
+        
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/tekrarBolumlereDon" 
+            android:background="@drawable/p_ana"
+            />
+
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/tekrarBaslatBtn"
+            android:background="@drawable/p_tekrar"
+            />
+        
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/tekrarSonrakiBolum" 
+            android:background="@drawable/p_sonraki"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

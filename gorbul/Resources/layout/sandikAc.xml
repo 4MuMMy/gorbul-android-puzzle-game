@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/p_arkaplan"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:id="@+id/sandikAcUstL">
+        
+    <TextView
+        android:id="@+id/baslikTxt"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text=""/>
+        
+    
+    <ImageView
+        android:background="@drawable/sandik1"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:id="@+id/sandikGorseli"
+        tools:ignore="ContentDescription" 
+        android:scaleType="fitXY"
+        android:gravity="center"
+    />
+
+    <Button
+        android:text=""
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:textAlignment="center"
+        android:id="@+id/sandikAcBtn" />
+    
+    <Button
+        android:text=""
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:id="@+id/sandikIptalBtn" />
+
+
+</LinearLayout>

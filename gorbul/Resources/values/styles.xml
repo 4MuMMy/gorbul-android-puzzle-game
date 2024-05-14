@@ -1,0 +1,51 @@
+<resources>
+
+
+	<style name="button" parent="@android:style/Widget.Button">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:background">@drawable/btn</item>
+		<item name="android:focusable">false</item>
+		
+	</style>
+
+	<style name="ButtonColorx" parent="@android:style/Widget.Button">
+		<item name="android:textColor">#ffffff</item>
+	</style>
+
+	<!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- colorPrimary is used for the default action bar background -->
+		<item name="colorPrimary">#ffffff</item>
+
+		<!-- colorPrimaryDark is used for the status bar -->
+		<item name="colorPrimaryDark">#000000</item>
+
+		<!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets
+		loading bar rengi #5236b7 -->
+		<item name="colorAccent">#999999</item>
+
+
+		<item name="android:buttonStyle">@style/button</item>
+		<item name="colorButtonNormal">#ffffff</item>
+		<item name="android:colorBackground">#222222</item>
+		<item name="android:textColorPrimary ">#cccccc</item>
+		<item name="android:textColor">#cccccc</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+		<item name="android:soundEffectsEnabled">false</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+	<style name="AppTheme.Bulmaca" parent="AppTheme">
+		<item name="android:colorBackground">#dddddd</item>
+		<item name="android:textColor">#444444</item>
+	</style>
+	
+
+</resources>

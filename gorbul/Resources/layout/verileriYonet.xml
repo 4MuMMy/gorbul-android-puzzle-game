@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#dddddd"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"> 
+        
+    <FrameLayout
+        android:id="@+id/verileriYonetUstTaraf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true">
+        
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="right"
+            android:id="@+id/verileriYonetKapatBtn" />
+
+    </FrameLayout>
+
+    
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="1250px"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="60px"
+        android:paddingLeft="60px"
+        android:layout_marginTop="160px"
+        android:layout_marginBottom="160px"
+        android:id="@+id/verileriYonetScroll"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/verileriYonetTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:textSize="40px"
+            android:textColor="#222222"
+            android:text=""/>
+        
+        <Button
+            android:text=""
+            android:layout_width="400px"
+            android:layout_height="100px"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="60px"
+            android:visibility="gone"
+            android:id="@+id/verileriYonetSilBtn" />
+    
+        <Button
+            android:text=""
+            android:layout_width="400px"
+            android:layout_height="100px"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:visibility="gone"
+            android:id="@+id/verileriYonetIptalBtn" />
+    
+        <TextView
+            android:id="@+id/verileriYonetSilTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:layout_margin="20px"
+            android:textSize="45px"
+            android:textColor="#444444"
+            android:text=""/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

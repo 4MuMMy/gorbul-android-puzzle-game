@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menuR1"
+    >
+    
+    <FrameLayout
+        android:id="@+id/menu_ustTaraf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true">
+        
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="right"
+            android:id="@+id/menuKapatBtn" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/menuL2"
+        android:layout_width="0px" 
+        android:layout_height="0px"
+        android:orientation="vertical">
+
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuBolumlereDon"
+            android:background="#99222222"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:src="@drawable/p_bolumleredonico"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/menuBolumlereDonIco"
+                android:foregroundGravity="center"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/menuBolumlereDonTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuMagaza"
+            android:background="#99222222"
+            >
+
+            <ImageView
+                android:src="@drawable/p_magazaIco"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/menuMagazaIco"
+                android:foregroundGravity="center"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/menuMagazaTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuBasarimlar"
+            android:background="#99222222"
+            >
+
+            <ImageView
+                android:src="@drawable/p_basarimlarIco"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/menuBasarimlarIco"
+                android:foregroundGravity="center"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/menuBasarimlarTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuAyarlar"
+            android:background="#99222222"
+            >
+
+            <ImageView
+                android:src="@drawable/p_ayarico"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/menuAyarlarIco"
+                android:foregroundGravity="center"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/menuAyarlarTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuMuzik"
+            android:background="#99222222"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+            >
+
+                <ImageView
+                    android:src="@drawable/p_muzikico"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:contentDescription=""
+                    android:id="@+id/menuMuzikIco"
+                    android:foregroundGravity="center"
+                    android:focusable="false" />
+
+                <TextView
+                    android:id="@+id/menuMuzikTxt"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:gravity="center"
+                    android:textColor="#dddddd"
+                    android:text=""/>
+                
+            </LinearLayout>
+            
+            
+            <TextView
+                android:id="@+id/menuMuzikDurumTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuSesler"
+            android:background="#99222222"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                >
+                <ImageView
+                    android:src="@drawable/p_seslerico"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:contentDescription=""
+                    android:id="@+id/menuSeslerIco"
+                    android:foregroundGravity="center"
+                    android:focusable="false" />
+
+                <TextView
+                    android:id="@+id/menuSeslerTxt"
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:gravity="center"
+                    android:textColor="#dddddd"
+                    android:text=""/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/menuSeslerDurumTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuYenilikler"
+            android:background="#99222222"
+            >
+
+            <ImageView
+                android:src="@drawable/p_yeniliklerico"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/menuYeniliklerIco"
+                android:foregroundGravity="center"
+                android:layout_alignParentLeft="true"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/menuYeniliklerTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text=""/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuCikis"
+            android:background="#99222222"
+            >
+
+            <ImageView
+                android:src="@drawable/p_cikis"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:contentDescription=""
+                android:id="@+id/menuCikisIco"
+                android:foregroundGravity="center"
+                android:layout_alignParentLeft="true"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/menuCikisTxt"
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:textColor="#dddddd"
+                android:text="" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

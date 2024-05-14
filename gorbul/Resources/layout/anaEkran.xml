@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anaEkranR"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layerType="software"
+    android:background="#222222">
+
+    <ImageView
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:id="@+id/anaEkranGorseli"
+        android:focusable="false"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:id="@+id/anaEkranL">
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:contentDescription=""
+            android:id="@+id/anaEkranCikis"
+            android:foregroundGravity="center"
+            android:focusable="false" />
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal">
+
+            <Button
+                android:text=""
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:id="@+id/basla" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

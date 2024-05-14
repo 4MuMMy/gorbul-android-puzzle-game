@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ustMenu_bolumler"
+        android:layout_width="0px"
+        android:layout_height="0px"
+    >
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/bolumlerScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:focusable="false"
+        android:layerType="software"
+        android:layout_gravity="center">
+        
+    <RelativeLayout
+        android:id="@+id/childOfScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222222">
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:id="@+id/bolumGorseli"
+            android:focusable="false"
+            tools:ignore="ContentDescription" />
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+        >
+
+            <Button
+                android:text=""
+                android:id="@+id/oncekiBolumlerBtn"
+                android:layout_width="0px"
+                android:layout_height="0px"
+            />
+
+            <GridLayout
+                android:id="@+id/bolumlerGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+            >
+            </GridLayout>
+            
+            <Button
+                android:text=""
+                android:id="@+id/sonrakiBolumlerBtn"
+                android:layout_width="0px"
+                android:layout_height="0px"
+            />
+       </LinearLayout>
+
+    </RelativeLayout>
+    
+    </ScrollView>
+
+    
+    
+
+</LinearLayout>
