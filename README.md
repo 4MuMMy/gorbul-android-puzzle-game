@@ -4,7 +4,7 @@
 
 <h4>Gör-Bul: Visual Word Puzzle</h4>
 <b>(Gör: See, Bul: Find)</b>
-
+<br /><br />
 <p>Try to find the hidden letters in the boxes by guessing what's in the picture.</p>
 
 <p>The game has specific categories. Each category contains 40 visual puzzle sections. In the puzzle, you are shown a picture and a question. You try to guess what the correct word is by typing letters into the empty boxes on the screen. The pictures consist of specific scenes. If you can't guess the right answer within a certain time, the visual scene changes and gives you a hint. After receiving a set number of hints, you reach the final scene, and no more hints are shown. If you still struggle to find the word, you can:</p>
@@ -18,13 +18,12 @@ As you solve puzzles and advance through levels, you can unlock various achievem
 
 <p>Puzzle, Puzzle, Puzzle Adventure, Word, Word Search</p>
 
-
+<br /><br /><br /><br />
 
 
 <b>TURKISH:</b>
-
 <h4>Gör-Bul: görsel kelime bulmaca</h4>
-
+<br /><br />
 <p>Görselde ne olduğunu tahmin ederek kutulardaki gizli harfleri bulmaya çalışmaca.</p>
 
 <p>Oyunda belirli kategoriler bulunur. Her kategorinin altında 40 adet görsel bulmaca bölümü bulunur. Bulmacada size bir görsel ile bir soru gösterilir. Ekranda bulunan boş kutulara harfleri yazarak doğru kelimenin ne olduğunu tahmin etmeye çalışırsınız. Görseller belirli sahnelerden oluşur. Eğer doğru cevabı belli bir sürede bilemezseniz, görsel sahnesi değişir ve size bir ipucu verir. Bu şekilde belirlenen sayıda ipucu aldıktan sonra son sahneye ulaşırsınız ve artık ipucu gösterilmez. Eğer kelimeyi bulmakta hâlâ zorlanıyorsanız;</p>
