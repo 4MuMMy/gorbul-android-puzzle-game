@@ -5,18 +5,18 @@
 <h4>Gör-Bul: Visual Word Puzzle</h4>
 <b>(Gör: See, Bul: Find)</b>
 
-<pre>Try to find the hidden letters in the boxes by guessing what's in the picture.
+<p>Try to find the hidden letters in the boxes by guessing what's in the picture.</p>
 
-The game has specific categories. Each category contains 40 visual puzzle sections. In the puzzle, you are shown a picture and a question. You try to guess what the correct word is by typing letters into the empty boxes on the screen. The pictures consist of specific scenes. If you can't guess the right answer within a certain time, the visual scene changes and gives you a hint. After receiving a set number of hints, you reach the final scene, and no more hints are shown. If you still struggle to find the word, you can:
+<p>The game has specific categories. Each category contains 40 visual puzzle sections. In the puzzle, you are shown a picture and a question. You try to guess what the correct word is by typing letters into the empty boxes on the screen. The pictures consist of specific scenes. If you can't guess the right answer within a certain time, the visual scene changes and gives you a hint. After receiving a set number of hints, you reach the final scene, and no more hints are shown. If you still struggle to find the word, you can:</p>
 
--Use the "Buy Letter" button to open a letter in exchange for coins.
--Use the "Hint" button to see the visual from another angle in exchange for coins.
--Use the "Reveal Word" button to reveal the word and learn what the visual is in exchange for coins.
+<p>-Use the "Buy Letter" button to open a letter in exchange for coins.</p>
+<p>-Use the "Hint" button to see the visual from another angle in exchange for coins.</p>
+<p>-Use the "Reveal Word" button to reveal the word and learn what the visual is in exchange for coins.</p>
 
-You can open a free chest once a day to earn coins and watch a video for an additional chest opening. Additionally, you can earn coins by watching a video from the store every 20 minutes. If you want more coins, you can purchase any amount from the store.
-As you solve puzzles and advance through levels, you can unlock various achievements and earn coins this way. As you progress through levels, obtaining hints becomes more challenging; the visual transition time increases. In later levels, automatic hints are no longer given, and the puzzle sections become more difficult.
+<p>You can open a free chest once a day to earn coins and watch a video for an additional chest opening. Additionally, you can earn coins by watching a video from the store every 20 minutes. If you want more coins, you can purchase any amount from the store.</p>
+As you solve puzzles and advance through levels, you can unlock various achievements and earn coins this way. As you progress through levels, obtaining hints becomes more challenging; the visual transition time increases. In later levels, automatic hints are no longer given, and the puzzle sections become more difficult.</p>
 
-Puzzle, Puzzle, Puzzle Adventure, Word, Word Search</pre>
+<p>Puzzle, Puzzle, Puzzle Adventure, Word, Word Search</p>
 
 
 
@@ -25,18 +25,18 @@ Puzzle, Puzzle, Puzzle Adventure, Word, Word Search</pre>
 
 <h4>Gör-Bul: görsel kelime bulmaca</h4>
 
-<pre>Görselde ne olduğunu tahmin ederek kutulardaki gizli harfleri bulmaya çalışmaca.
+<p>Görselde ne olduğunu tahmin ederek kutulardaki gizli harfleri bulmaya çalışmaca.</p>
 
-Oyunda belirli kategoriler bulunur. Her kategorinin altında 40 adet görsel bulmaca bölümü bulunur. Bulmacada size bir görsel ile bir soru gösterilir. Ekranda bulunan boş kutulara harfleri yazarak doğru kelimenin ne olduğunu tahmin etmeye çalışırsınız. Görseller belirli sahnelerden oluşur. Eğer doğru cevabı belli bir sürede bilemezseniz, görsel sahnesi değişir ve size bir ipucu verir. Bu şekilde belirlenen sayıda ipucu aldıktan sonra son sahneye ulaşırsınız ve artık ipucu gösterilmez. Eğer kelimeyi bulmakta hâlâ zorlanıyorsanız;
--"Harf Al" butonu ile jeton karşılığında harf açabilirsiniz.
--"İpucu" butonu ile jeton karşılığında görseli başka bir açıdan görerek ipucu alabilirsiniz.
--"Kelime Aç" butonu ile jeton karşılığında kelimeyi açarak görselin ne olduğunu öğrenebilirsiniz.
-Jeton kazanabilmek için günde bir defa ücretsiz sandık açabilirsiniz ve bir kez daha sandık açabilmek için video izleyebilirsiniz. Ayrıca her 20 dk'da bir mağaza üzerinden bir video seyrederek jeton kazanabilirsiniz. Daha fazla jeton sahibi olmak istiyorsanız, mağaza üzerinden istediğiniz miktarda jeton satın alabilirsiniz.
-Bulmacaları çözerek bölüm atladıkça çeşitli başarımlar açabilirsiniz ve bu şekilde de jeton kazanabilirsiniz. Bölümleri geçtikçe ipucu alma zorlaşır; görsel atlama süresi uzar. Daha da ileriki bölümlerde artık otomatik ipucu verilmez ve bulmaca bölümleri daha çetin duruma gelir.
+<p>Oyunda belirli kategoriler bulunur. Her kategorinin altında 40 adet görsel bulmaca bölümü bulunur. Bulmacada size bir görsel ile bir soru gösterilir. Ekranda bulunan boş kutulara harfleri yazarak doğru kelimenin ne olduğunu tahmin etmeye çalışırsınız. Görseller belirli sahnelerden oluşur. Eğer doğru cevabı belli bir sürede bilemezseniz, görsel sahnesi değişir ve size bir ipucu verir. Bu şekilde belirlenen sayıda ipucu aldıktan sonra son sahneye ulaşırsınız ve artık ipucu gösterilmez. Eğer kelimeyi bulmakta hâlâ zorlanıyorsanız;</p>
 
+<p>-"Harf Al" butonu ile jeton karşılığında harf açabilirsiniz.</p>
+<p>-"İpucu" butonu ile jeton karşılığında görseli başka bir açıdan görerek ipucu alabilirsiniz.</p>
+<p>-"Kelime Aç" butonu ile jeton karşılığında kelimeyi açarak görselin ne olduğunu öğrenebilirsiniz.</p>
 
+<p>Jeton kazanabilmek için günde bir defa ücretsiz sandık açabilirsiniz ve bir kez daha sandık açabilmek için video izleyebilirsiniz. Ayrıca her 20 dk'da bir mağaza üzerinden bir video seyrederek jeton kazanabilirsiniz. Daha fazla jeton sahibi olmak istiyorsanız, mağaza üzerinden istediğiniz miktarda jeton satın alabilirsiniz.</p>
+<p>Bulmacaları çözerek bölüm atladıkça çeşitli başarımlar açabilirsiniz ve bu şekilde de jeton kazanabilirsiniz. Bölümleri geçtikçe ipucu alma zorlaşır; görsel atlama süresi uzar. Daha da ileriki bölümlerde artık otomatik ipucu verilmez ve bulmaca bölümleri daha çetin duruma gelir.</p>
 
-Bulmaca, Bulmaca, Bulmacalı macera, Kelime, Kelime arama</pre>
+<p>Bulmaca, Bulmaca, Bulmacalı macera, Kelime, Kelime arama</p>
 
 <pre>
 Music Sources:
