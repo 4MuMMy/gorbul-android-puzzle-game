@@ -1,4 +1,4 @@
-# Gör-Bul - Görsel Kelime Bulmaca (Visual Word Puzzle Game) | Source Code
+# Gör-Bul - Görsel Kelime Bulmaca (Visual Word Puzzle Game)<br />Source Code
 
 <div align="center"><img src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul.jpg?raw=true" /></div>
 
