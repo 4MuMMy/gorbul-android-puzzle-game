@@ -1,6 +1,6 @@
 # Gör-Bul - Görsel Kelime Bulmaca (Visual Word Puzzle Game) | Source Code
 
-<img align="center" src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul.jpg?raw=true" />
+<div align="center"><img src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul.jpg?raw=true" /></div>
 
 <b>ENGLISH</b>
 
@@ -41,7 +41,7 @@ As you solve puzzles and advance through levels, you can unlock various achievem
 
 <p>Bulmaca, Bulmaca, Bulmacalı macera, Kelime, Kelime arama</p>
 
-<img align="center" src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul-icon.png?raw=true" />
+<div align="center"><img src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul-icon.png?raw=true" /></div>
 
 <pre>
 Music Sources:
@@ -271,7 +271,4 @@ ID
 [801-1000] Ortalaması En Yüksek Puanlar
 </pre>
 
-<img width="300px" src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul1.png?raw=true" />
-<img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul2.png?raw=true" />
-<img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul3.png?raw=true" />
-<img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul4.png?raw=true" />
+<img width="300px" src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul1.png?raw=true" /><img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul2.png?raw=true" /><img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul3.png?raw=true" /><img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul4.png?raw=true" />
