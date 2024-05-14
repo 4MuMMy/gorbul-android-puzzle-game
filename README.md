@@ -271,4 +271,4 @@ ID
 [801-1000] Ortalaması En Yüksek Puanlar
 </pre>
 
-<img width="300px" src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul1.png?raw=true" /><img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul2.png?raw=true" /><img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul3.png?raw=true" /><img width="300px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul4.png?raw=true" />
+<img width="500px" src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul1.png?raw=true" /><img width="500px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul2.png?raw=true" /><img width="500px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul3.png?raw=true" /><img width="500px"  src="https://github.com/4MuMMy/gorbul-android-puzzle-game/blob/main/gorbul4.png?raw=true" />
