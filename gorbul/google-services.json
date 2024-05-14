@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "x",
+    "project_id": "pc-api-x-593",
+    "storage_bucket": "pc-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:x:android:x",
+        "android_client_info": {
+          "package_name": "com.mummy.gorbul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "x.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mummy.gorbul",
+            "certificate_hash": "x"
+          }
+        },
+        {
+          "client_id": "x.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "x"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "x.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
